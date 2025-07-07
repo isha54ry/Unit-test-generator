@@ -2,7 +2,7 @@
 
 This project automatically generates unit tests for C++ code using a Large Language Model (LLM) and iteratively improves test quality based on build feedback, code coverage, and logs. It is inspired by the architecture shown in the [LLM-based Test Generator Workflow](https://github.com/theleftyonee/Unit-Test-Generator-for-C-Applications).
 
-## 🔧 Features
+## Features
 
 - Automatic unit test generation using LLM (e.g., LLaMA via Ollama)
 - Build and test orchestration using CMake and GoogleTest
@@ -13,7 +13,7 @@ This project automatically generates unit tests for C++ code using a Large Langu
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 
@@ -41,11 +41,11 @@ orgChartApi/
 
 ---
 
-## 🖥️ Dependencies
+## Dependencies
 
 Make sure you have the following tools installed:
 
-### 📦 System Requirements
+### System Requirements
 | Tool        | Version         | Notes                                 |
 |-------------|------------------|----------------------------------------|
 | CMake       | >= 3.15          | For building the project               |
@@ -57,7 +57,7 @@ Make sure you have the following tools installed:
 
 ---
 
-## 📜 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -123,7 +123,7 @@ Generated using `LCOV version 1.14`
 
 ---
 
-## 🤖 LLM Integration Flow
+## LLM Integration Flow
 
 1. Source files are sent to the LLM along with YAML prompts.
 2. LLM returns test code (`test_*.cpp`) stored in `testgen/tests`.
@@ -132,13 +132,13 @@ Generated using `LCOV version 1.14`
 
 ---
 
-## 🧠 Prompting Guidelines
+##  Prompting Guidelines
 
 See `testgen/prompts/strict.yaml` for sample YAML strict-mode prompt used with LLaMA.
 
 ---
 
-## 📌 TODO
+## TODO
 
 * [ ] Add support for CLI LLMs like `llama.cpp`
 * [ ] Automate rebuilds via Python script
@@ -146,12 +146,12 @@ See `testgen/prompts/strict.yaml` for sample YAML strict-mode prompt used with L
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Isha Raj**
-✉️ [isha54work@gmail.com](mailto:isha54work@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/isha-raj-223184250/)
-🐙 [GitHub](https://github.com/isha54ry)
+ [isha54work@gmail.com](mailto:isha54work@gmail.com)
+ [LinkedIn](https://www.linkedin.com/in/isha-raj-223184250/)
+
 
 ---
 
