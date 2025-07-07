@@ -1,0 +1,19 @@
+Start testing: Jul 07 04:01 India Standard Time
+----------------------------------------------------------
+Unable to find executable: C:/orgChartApi/build/test_runner.exe
+1/1 Testing: DepartmentTests
+1/1 Test: DepartmentTests
+Command: ""
+Directory: C:/orgChartApi/build
+"DepartmentTests" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DepartmentTests" end time: Jul 07 04:01 India Standard Time
+"DepartmentTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 07 04:01 India Standard Time

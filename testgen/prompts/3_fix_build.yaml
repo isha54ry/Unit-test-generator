@@ -1,0 +1,8 @@
+task: Fix build errors in generated test files
+context:
+  - You will be provided the source code and build error logs.
+instructions:
+  - Identify the cause of the compiler/linker error.
+  - Fix missing headers, type errors, or linker issues.
+  - Do not remove logical test cases unless necessary.
+  - Make the test file successfully build with g++ and Google Test.

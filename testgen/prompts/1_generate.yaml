@@ -1,0 +1,8 @@
+instructions: |
+  Generate GoogleTest unit tests for the given C++ source file.
+  - Use TEST and TEST_F macros appropriately.
+  - Do not duplicate tests.
+  - Include necessary headers.
+  - Use descriptive test names.
+  - Each test file should start with #include "<header>.h"
+  - Return well-formatted C++ code only.

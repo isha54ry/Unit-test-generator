@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/orgChartApi/build/cmake_install.cmake",
+		"C:/orgChartApi/build/googletest/cmake_install.cmake",
+		"C:/orgChartApi/build/googletest/googlemock/cmake_install.cmake",
+		"C:/orgChartApi/build/googletest/googletest/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

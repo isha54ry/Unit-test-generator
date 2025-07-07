@@ -1,0 +1,69 @@
+
+## 📦 `requirements.txt`
+
+For your script, you only need standard Python libraries (which come with Python itself), **except** for `ollama`, which is an external command-line tool (not a Python package).  
+If you want to ensure a smooth Python environment (and possible future expansion), you can use this minimal `requirements.txt`:
+
+```
+# No external Python packages required for current script.
+# If you use YAML parsing in the future, add: pyyaml
+```
+
+**You do NOT need to install anything via pip for this script as written.**
+
+## 🛠️ Setup Instructions
+
+### 1. **Install Python (if not already)**
+- Version 3.7 or above recommended.
+
+### 2. **Install Ollama and LLaMA3 Model**
+- [Ollama installation guide](https://ollama.com/download)
+- After installing, run:
+  ```bash
+  ollama pull llama3
+  ```
+
+### 3. **Install CMake and a C++ Compiler**
+- On Ubuntu/Debian:
+  ```bash
+  sudo apt update
+  sudo apt install cmake build-essential
+  ```
+- On Windows: [CMake Download](https://cmake.org/download/) and install Visual Studio or MinGW.
+- On Mac:  
+  ```bash
+  brew install cmake
+  xcode-select --install
+  ```
+
+### 4. **Directory Structure**
+Your project should look like this:
+```
+unit-test-generator/
+  run_pipeline.py
+  models/
+    DepartmentController.cc
+  testgen/
+    prompts/
+      1_generate.yaml
+    tests/
+      # (will be created)
+    build_logs/
+      # (will be created)
+```
+
+### 5. **Run the Script**
+```bash
+python unit-test-generator/run_pipeline.py
+```
+
+## 🚦 Troubleshooting
+
+- **Ollama not found?**  
+  Make sure it's installed and in your PATH. Try `ollama --help` in your terminal.
+- **CMake errors?**  
+  Check your `CMakeLists.txt` and make sure all dependencies are installed.
+- **Python errors?**  
+  Make sure you are running Python 3 and have the directory structure as above.
+
+**Let me know if you want a sample `CMakeLists.txt` or help with any specific error!**

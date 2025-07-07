@@ -1,0 +1,7 @@
+instructions: |
+  Improve the following C++ test code:
+  - Remove duplicate or redundant tests
+  - Add missing headers
+  - Use best practices
+  - Ensure compatibility with GoogleTest
+  - Ensure all assertions are meaningful
