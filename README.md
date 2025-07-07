@@ -31,6 +31,13 @@ orgChartApi/
 └── README.md
 
 ````
+---
+## Architecture
+
+
+![unnamed](https://github.com/user-attachments/assets/b6824b44-1fdd-44c8-9850-b37d006de146)
+
+
 
 ---
 
